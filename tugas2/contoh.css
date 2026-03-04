@@ -1,0 +1,45 @@
+/* ID hanya untuk elemen unik */
+#judul-utama {
+  color: red;
+  font-size: 32px;
+}
+
+/* Class bisa dipakai berulang kali */
+.teks-biru {
+  color: blue;
+  font-size: 18px;
+}
+/* Aturan untuk class */
+.teks-biru {
+  color: blue;
+  font-size: 18px;
+}
+
+/* Aturan untuk id */
+#khusus {
+  color: aquamarine;
+  font-size: 50px;
+}
+/* Class: bisa dipakai berulang kali */
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+} /* ID: hanya untuk elemen unik */
+#tombol-spesial {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: 2px solid black;
+}
+div {
+  width: auto;
+  background-color: maroon;
+  padding: 0px;
+  border: 20px solid black;
+  margin: 10px;
+}
