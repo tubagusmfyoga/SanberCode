@@ -1,0 +1,71 @@
+/* Header */
+.header-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px 20px;
+}
+
+.header-custom .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.search-bar {
+  width: 180px;
+  margin-left: 10px;
+}
+
+/* Main Navigation */
+.main-nav-custom {
+  margin-bottom: 15px;
+}
+
+/* Sidebar kiri */
+.sidebar-left {
+  background: #f0f0f0;
+  padding: 10px;
+}
+
+/* Konten utama */
+.main-content {
+  background: #fff;
+  padding: 10px;
+}
+
+.jumbotron-custom {
+  background: #6c757d;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.item-custom {
+  background: #e9ecef;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+/* Sidebar kanan */
+.sidebar-right {
+  background: #f9f9f9;
+  padding: 10px;
+}
+
+.external-links {
+  margin-top: 20px;
+  background: #6c757d;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
