@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Perbedaan getElementById vs getElementsByClassName</title>
+  </head>
+  <body>
+    <!-- Elemen dengan ID unik -->
+    <h1 id="judul">Halo Dunia</h1>
+
+    <!-- Beberapa elemen dengan class yang sama -->
+    <p class="menu">Menu 1</p>
+    <p class="menu">Menu 2</p>
+    <p class="menu">Menu 3</p>
+
+    <script>
+      // Menggunakan getElementById → hanya satu elemen
+      var title = document.getElementById("judul");
+      title.style.color = "blue"; // ubah warna teks jadi biru
+      title.innerHTML = "Judul diubah dengan getElementById";
+
+      // Menggunakan getElementsByClassName → kumpulan elemen
+      var items = document.getElementsByClassName("menu");
+      items[0].style.color = "red"; // ubah warna menu pertama jadi merah
+      items[1].style.color = "green"; // ubah warna menu kedua jadi hijau
+      items[2].style.color = "purple"; // ubah warna menu ketiga jadi ungu
+    </script>
+  </body>
+</html>
