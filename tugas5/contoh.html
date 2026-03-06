@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Contoh DOM</title>
+  </head>
+  <body>
+    <h2>Daftar Belanja</h2>
+    <ul id="list">
+      <li>Beras</li>
+      <li>Telur</li>
+    </ul>
+    <button id="addBtn">Tambah Item</button>
+
+    <script>
+      // Ambil tombol dan daftar
+      const button = document.getElementById("addBtn");
+      const list = document.getElementById("list");
+
+      // Tambahkan event listener ke tombol
+      button.addEventListener("click", () => {
+        // Buat elemen <li> baru
+        const newItem = document.createElement("li");
+        newItem.textContent = "Item baru";
+
+        // Masukkan ke dalam daftar
+        list.appendChild(newItem);
+      });
+    </script>
+  </body>
+</html>
